@@ -1,0 +1,24 @@
+{
+  "name": "bus-butler",
+  "version": "0.0.1",
+  "description": "chat bot for Bus Butler app",
+  "keywords": [
+    "bot",
+    "bots",
+    "transportation",
+    "bus"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "https://github.com/wit-ai/node-wit",
+  "author": "Shu Wu <shuw@me.com>",
+  "dependencies": {
+    "node-wit": "*",
+    "node-uuid": "^1.4.7",
+    "request": "^2.69.0",
+    "body-parser": "*",
+    "express": "*"
+  }
+}
