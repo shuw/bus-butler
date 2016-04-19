@@ -1,10 +1,9 @@
 'use strict';
 
-// Messenger API integration example
+// Bus Butler Integration
 // We assume you have:
 // * a Wit.ai bot setup (https://wit.ai/docs/quickstart)
 // * a Messenger Platform setup (https://developers.facebook.com/docs/messenger-platform/quickstart)
-// You need to `npm install` the following dependencies: body-parser, express, request.
 //
 // 1. npm install body-parser express request 
 // 2. Download and install ngrok from https://ngrok.com/download
@@ -29,10 +28,6 @@ const WIT_TOKEN = process.env.WIT_TOKEN;
 const FB_PAGE_ID = process.env.FB_PAGE_ID && Number(process.env.FB_PAGE_ID);
 if (!FB_PAGE_ID) {
   throw new Error('missing FB_PAGE_ID');
-}
-const FB_PAGE_TOKEN = process.env.FB_PAGE_TOKEN;
-if (!FB_PAGE_TOKEN) {
-  throw new Error('missing FB_PAGE_TOKEN');
 }
 const FB_VERIFY_TOKEN = process.env.FB_VERIFY_TOKEN;
 
