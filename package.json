@@ -19,6 +19,8 @@
     "request": "^2.69.0",
     "body-parser": "*",
     "express": "*",
-    "googlemaps": "*"
+    "googlemaps": "*",
+    "underscore": "*",
+    "string": "*"
   }
 }
