@@ -1,3 +1,2 @@
-start.sh
-start-interactive.sh
+set-env.sh
 node_modules/

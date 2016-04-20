@@ -8,6 +8,3 @@ export FB_PAGE_TOKEN=your_page_token
 export FB_VERIFY_TOKEN=any_token
 export GMAPS_KEY=your_key
 export ONE_BUS_AWAY_KEY=your_key
-
-node messenger.js
-
