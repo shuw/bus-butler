@@ -11,11 +11,11 @@ Install node modules:
 npm install
 ```
 
-## Start Messenger Server
+## Start Messenger Wenhook Server
 ```
 ngrok http 8445
 . set-env.sh
-node messenger.js // or node interactive.js
+node messenger.js
 ```
 
 ## Start Interactive
